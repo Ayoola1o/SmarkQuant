@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+psycopg2-binary
+redis
+jesse
+optuna
+pandas
+numpy
+pydantic
+python-multipart
+yfinance
+# Add any specific versions if necessary, generally Jesse is picky so we might want to let it resolve deps, 
+# but for now we list top level.
