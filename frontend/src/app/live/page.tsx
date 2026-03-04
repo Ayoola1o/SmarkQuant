@@ -117,7 +117,7 @@ export default function LivePage() {
                             <input
                                 type="text"
                                 value={symbol}
-                                onChange={(e) => setSymbol(e.target.toUpperCase())}
+                                onChange={(e) => setSymbol(e.target.value.toUpperCase())}
                                 className="bg-transparent px-3 py-1 text-sm font-bold w-28 focus:outline-none uppercase"
                                 placeholder="BTC-USDT"
                             />
